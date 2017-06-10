@@ -186,12 +186,5 @@ for index, disaster in enumerate(disasters):
 
 	plt.rcParams['savefig.bbox'] = 'tight'
 
-	#mywriter = animation.FFMpegWriter(fps=30, metadata=metadata, extra_args=['-vcodec', 'libx264'])
-	#anim.save(disaster + '.mp4')#, dpi=100, writer=mywriter)
-	#anim.save(disaster + '.gif', writer='imagemagick')
 	plt.draw()
 	plt.show(block=False)
-
-	
-		#fig1.savefig("./Results/" + disaster + "/" + disaster + "-" + str(row_index) + '.png', dpi=fig1.dpi, bbox_inches='tight')
-		#plt.close()

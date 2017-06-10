@@ -22,31 +22,23 @@ later use it to plot the map, let's hope this works.
 data_directory = "./CrisisLexT26"
 
 #The disasters we want to compute
-'''disasters = ["2012_Colorado_wildfires", "2012_Costa_Rica_earthquake", "2012_Guatemala_earthquake", "2012_Italy_earthquakes",
+disasters = ["2012_Colorado_wildfires", "2012_Costa_Rica_earthquake", "2012_Guatemala_earthquake", "2012_Italy_earthquakes",
              "2012_Philipinnes_floods", "2012_Typhoon_Pablo", "2012_Venezuela_refinery", "2013_Alberta_floods", 
              "2013_Australia_bushfire", "2013_Bohol_earthquake", "2013_Boston_bombings", "2013_Brazil_nightclub_fire"
              "2013_Colorado_floods", "2013_Glasgow_helicopter_crash", "2013_LA_airport_shootings", "2013_Lac_Megantic_train_crash",
              "2013_Manila_floods", "2013_NY_train_crash", "2013_Queensland_floods", "2013_Russia_meteor", "2013_Sardinia_floods",
              "2013_Savar_building_collapse", "2013_Singapore_haze", "2013_Spain_train_crash", "2013_Typhoon_Yolanda",
              "2013_West_Texas_explosion"]
-'''
-disasters = ["2013_Brazil_nightclub_fire",
-             "2013_Colorado_floods",
-             "2013_NY_train_crash","2013_Sardinia_floods",
-             "2013_Savar_building_collapse", "2013_Singapore_haze", "2013_Spain_train_crash", "2013_Typhoon_Yolanda",
-             "2013_West_Texas_explosion"]
+
 
 #Disasters that are in english and do not require translation
-'''in_english = [True, False, False, False,
+in_english = [True, False, False, False,
               False, False, False, True,
               True, False, True, False,
               True, True, True, True,
               False, True, True, False, False,
               False, False, False, False,
               True]
-'''
-
-in_english = [False, True, True, False, False, False, False, False, True]
 
 #The minimum length of the tweet after decoding to be processed
 minimum_length = 5
